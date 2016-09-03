@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DBtoXml">
+  <DataContextMoniker Name="/DBtoXmlDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9287f4ba-120c-4133-ae50-2d57b2e33220" absoluteBounds="0.75, 2.5, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DBtoXmlDataContext/Company" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aa4e3de0-365a-4694-b69f-7f9584edd58a" absoluteBounds="0.765, 2.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="850e7b25-1766-4a36-aeba-fc83e88c4c0b" absoluteBounds="6.25, 1, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DBtoXmlDataContext/Department" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d89cb6ed-c5a3-4b22-8144-38232a7644de" absoluteBounds="6.265, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a4ddab4-f3a3-453d-87fa-44e228946ae1" absoluteBounds="3.5, 1.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DBtoXmlDataContext/Department1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c13dc78-78ed-465e-8712-6ed9babb2e57" absoluteBounds="3.515, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7586a0d-adca-4a49-9a1b-820ff1a6be68" absoluteBounds="6.25, 3.125, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DBtoXmlDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ffc61e5a-9311-47a8-8b85-7c4b9890fc0c" absoluteBounds="6.265, 3.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1425a0c8-4d1c-4720-bfb8-ed895e085042" absoluteBounds="3.5, 3.5, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/DBtoXmlDataContext/Employee1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7fe0216d-5c4a-4bbb-9a1f-bd8e2a74434e" absoluteBounds="3.515, 3.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 1.72199625651042); (6.25 : 1.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBtoXmlDataContext/Department1/Department1_Department" />
+      <nodes>
+        <classShapeMoniker Id="6a4ddab4-f3a3-453d-87fa-44e228946ae1" />
+        <classShapeMoniker Id="850e7b25-1766-4a36-aeba-fc83e88c4c0b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.5); (3.5 : 2.31899251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DBtoXmlDataContext/Company/Company_Department1" />
+      <nodes>
+        <classShapeMoniker Id="9287f4ba-120c-4133-ae50-2d57b2e33220" />
+        <classShapeMoniker Id="6a4ddab4-f3a3-453d-87fa-44e228946ae1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.09699625651042); (6.25 : 4.09699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBtoXmlDataContext/Employee1/Employee1_Employee" />
+      <nodes>
+        <classShapeMoniker Id="1425a0c8-4d1c-4720-bfb8-ed895e085042" />
+        <classShapeMoniker Id="b7586a0d-adca-4a49-9a1b-820ff1a6be68" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 3.69399251302083); (1.75 : 4.09699625651042); (3.5 : 4.09699625651042)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DBtoXmlDataContext/Company/Company_Employee1" />
+      <nodes>
+        <classShapeMoniker Id="9287f4ba-120c-4133-ae50-2d57b2e33220" />
+        <classShapeMoniker Id="1425a0c8-4d1c-4720-bfb8-ed895e085042" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

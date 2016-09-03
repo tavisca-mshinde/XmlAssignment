@@ -1,0 +1,6 @@
+D:\HotelMgmtSystem\XMLAssignment\bin\Debug\XMLAssignment.exe.config
+D:\HotelMgmtSystem\XMLAssignment\bin\Debug\XMLAssignment.exe
+D:\HotelMgmtSystem\XMLAssignment\bin\Debug\XMLAssignment.pdb
+D:\HotelMgmtSystem\XMLAssignment\obj\Debug\XMLAssignment.csprojResolveAssemblyReference.cache
+D:\HotelMgmtSystem\XMLAssignment\obj\Debug\XMLAssignment.exe
+D:\HotelMgmtSystem\XMLAssignment\obj\Debug\XMLAssignment.pdb

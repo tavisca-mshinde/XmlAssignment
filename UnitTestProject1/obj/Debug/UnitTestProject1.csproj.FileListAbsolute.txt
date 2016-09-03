@@ -1,0 +1,8 @@
+D:\HotelMgmtSystem\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\HotelMgmtSystem\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\HotelMgmtSystem\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\HotelMgmtSystem\UnitTestProject1\bin\Debug\XMLAssignment.exe
+D:\HotelMgmtSystem\UnitTestProject1\bin\Debug\XMLAssignment.pdb
+D:\HotelMgmtSystem\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+D:\HotelMgmtSystem\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\HotelMgmtSystem\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

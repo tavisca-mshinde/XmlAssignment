@@ -1,0 +1,15 @@
+2016-08-29 13:54:20.9362|TRACE|HotelMgmtSystem.HotelConsole|data entered by agent : name of hotel jannat and city JammuKashmir
+2016-08-29 13:54:43.1875|TRACE|HotelMgmtSystem.HotelConsole|city searched by user JammuKashmir
+2016-08-29 13:55:04.9106|TRACE|HotelMgmtSystem.HotelConsole|rooms entered by agent for hotelId 6 and type of room 0
+2016-08-29 13:58:38.7670|TRACE|HotelMgmtSystem.HotelConsole|city searched by user Pune
+2016-08-29 13:59:01.5343|TRACE|HotelMgmtSystem.HotelConsole|New Customer with name suraj for hotelId 1 for room type Id 1
+2016-08-29 13:59:01.5573|TRACE|HotelMgmtSystem.HotelConsole|New customer booked in with Booking Id 7
+2016-08-29 13:59:15.1187|TRACE|HotelMgmtSystem.HotelConsole|city searched by user Pune
+2016-08-29 13:59:33.6825|INFO|HotelMgmtSystem.HotelConsole|customer checked out
+2016-08-29 14:09:25.5196|TRACE|HotelMgmtSystem.HotelConsole|city searched by user Pune
+2016-08-29 14:09:29.9656|ERROR|HotelMgmtSystem.HotelConsole|Odd no entered
+2016-08-29 14:18:01.6396|TRACE|HotelMgmtSystem.HotelConsole|city searched by user Mumbai
+2016-08-29 14:19:06.0303|TRACE|HotelMgmtSystem.HotelConsole|city searched by user Mumbai
+2016-08-29 14:22:03.5324|TRACE|HotelMgmtSystem.HotelConsole|city searched by user Pune
+2016-08-29 14:35:40.6272|TRACE|HotelMgmtSystem.HotelConsole|city searched by user Mumbai
+2016-08-29 14:38:20.7002|TRACE|HotelMgmtSystem.HotelConsole|city searched by user Mumbai

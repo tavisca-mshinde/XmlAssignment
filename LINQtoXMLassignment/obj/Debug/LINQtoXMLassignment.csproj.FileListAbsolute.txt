@@ -1,0 +1,6 @@
+D:\HotelMgmtSystem\LINQtoXMLassignment\bin\Debug\LINQtoXMLassignment.exe.config
+D:\HotelMgmtSystem\LINQtoXMLassignment\bin\Debug\LINQtoXMLassignment.exe
+D:\HotelMgmtSystem\LINQtoXMLassignment\bin\Debug\LINQtoXMLassignment.pdb
+D:\HotelMgmtSystem\LINQtoXMLassignment\obj\Debug\LINQtoXMLassignment.csprojResolveAssemblyReference.cache
+D:\HotelMgmtSystem\LINQtoXMLassignment\obj\Debug\LINQtoXMLassignment.exe
+D:\HotelMgmtSystem\LINQtoXMLassignment\obj\Debug\LINQtoXMLassignment.pdb

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="XMLAssignment" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MANOJS\MSSQLSERVER2012;Initial Catalog=XMLAssignment;User ID=sa" SettingsObjectName="XMLAssignment.Properties.Settings" SettingsPropertyName="XMLAssignmentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Company" Member="Companies">
+    <Type Name="Company">
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Company_Id" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Company_Department1" Member="Department1s" ThisKey="Company_Id" OtherKey="Company_Id" Type="Department1" />
+      <Association Name="Company_Employee1" Member="Employee1s" ThisKey="Company_Id" OtherKey="Company_Id" Type="Employee1" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Department" Member="Departments">
+    <Type Name="Department">
+      <Column Name="ID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DepartmentName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Departments_Id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Department1_Department" Member="Department1" ThisKey="Departments_Id" OtherKey="Departments_Id" Type="Department1" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Departments" Member="Department1s">
+    <Type Name="Department1">
+      <Column Name="Departments_Id" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Company_Id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Department1_Department" Member="Departments" ThisKey="Departments_Id" OtherKey="Departments_Id" Type="Department" />
+      <Association Name="Company_Department1" Member="Company" ThisKey="Company_Id" OtherKey="Company_Id" Type="Company" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Employee" Member="Employees">
+    <Type Name="Employee">
+      <Column Name="ID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DepartmentID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Employees_Id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Employee1_Employee" Member="Employee1" ThisKey="Employees_Id" OtherKey="Employees_Id" Type="Employee1" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Employees" Member="Employee1s">
+    <Type Name="Employee1">
+      <Column Name="Employees_Id" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Company_Id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Employee1_Employee" Member="Employees" ThisKey="Employees_Id" OtherKey="Employees_Id" Type="Employee" />
+      <Association Name="Company_Employee1" Member="Company" ThisKey="Company_Id" OtherKey="Company_Id" Type="Company" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
